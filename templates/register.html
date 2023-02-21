@@ -8,6 +8,7 @@
 <h1>Register</h1>
 <form action="">
     {% csrf_token %}
+    {{ reg_form.as_p }}
     <input type="submit" name="mark" value="Register">
 
 
