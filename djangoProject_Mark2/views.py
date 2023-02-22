@@ -34,6 +34,5 @@ def reg_members(request):
         city = reg_members_form.cleaned_data.get("city")
         country = reg_members_form.cleaned_data.get("country")
 
-    context = {'reg_members_form': reg_members_form, 'name': name, 'age': age, 'phone': phone, 'city': city,
-               'country': country, 'submit_members': submit_members}
+    context = {'reg_members_form': reg_members_form, 'name': name, 'age': age, 'phone': phone, 'city': city,'country': country, 'submit_members': submit_members}
     return render(request, 'members.html', context)
