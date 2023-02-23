@@ -8,14 +8,14 @@
 </head>
 <body>
 
-<h1>Members page</h1>
+<h1>Members Page</h1>
 
 <form action="" method="POST" class="members_form" >
 
     {% csrf_token %}
     {{ reg_members_form.as_p }}
 
-      <input type="submit" name="mem" value="RegisterMember">
+      <input type="submit" name="mem" value="RegisterMember" class="button">
 
 </form>
 

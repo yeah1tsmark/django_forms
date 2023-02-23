@@ -9,3 +9,21 @@ h1{
 .members_form{ text-align: center;
 
 }
+
+.button{
+width: 120px;
+height: 50px;
+background-color: black;
+color: white;
+margin-left: 20px;
+ border-radius: 20px;
+margin-top: 20px;}
+
+
+form p{
+ display: flex;
+flex-direction: column;
+width: 160px;
+height: 40px;
+margin-left: 430px;}
+
